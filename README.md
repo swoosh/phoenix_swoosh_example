@@ -20,7 +20,7 @@ $ export SENDGRID_API_KEY=abcabcabc
 $ mix phoenix.server
 ```
 
-You can now visit [http://localhost:4000]() from your browser to start sending emails.
+You can now visit [http://localhost:4000](http://localhost:4000) from your browser to start sending emails.
 
 ## Learn more
 
