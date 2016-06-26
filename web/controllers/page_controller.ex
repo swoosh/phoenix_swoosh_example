@@ -29,7 +29,7 @@ defmodule ExampleApplication.PageController do
         conn
         |> put_flash(:info, "Email sent successfully")
         |> redirect(to: page_path(conn, :index))
-      {:error, reason} ->
+      {:error, _reason} ->
         conn
         |> put_flash(:error, "There was an error while sending the email")
         |> redirect(to: page_path(conn, :index))
