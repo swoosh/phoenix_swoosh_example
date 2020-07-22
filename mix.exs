@@ -35,6 +35,6 @@ defmodule ExampleApplication.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:exrm, "~> 1.0"},
-     {:phoenix_swoosh, "~> 0.2.0"}]
+     {:phoenix_swoosh, "~> 0.3.0"}]
   end
 end
